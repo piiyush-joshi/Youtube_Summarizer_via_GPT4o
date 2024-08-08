@@ -16,7 +16,6 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 st.secrets["GROQ_API_KEY"]
 
 #streamlit app
-st.set_page_config(page_title="Data Summarizer", page_icon=":tada:", layout="wide")
 st.title("YT Video Summarizer")
 st.subheader("Summarize data from YouTube videos.")
 
